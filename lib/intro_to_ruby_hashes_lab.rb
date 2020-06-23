@@ -5,7 +5,7 @@ end
 def my_hash
   new_hash = {
     name: "Brian",
-    dob: "03/18/1993"
+    age: 27
   }
 end
 
@@ -19,4 +19,7 @@ end
 
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
+  new_hash = {
+    :id => number
+  }
 end
